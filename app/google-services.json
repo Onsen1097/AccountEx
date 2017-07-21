@@ -1,77 +1,27 @@
 {
   "project_info": {
-    "project_number": "386334836209",
-    "firebase_url": "https://testrealtimedb-4f73e.firebaseio.com",
-    "project_id": "testrealtimedb-4f73e",
-    "storage_bucket": "testrealtimedb-4f73e.appspot.com"
+    "project_number": "762168279489",
+    "firebase_url": "https://account-807be.firebaseio.com",
+    "project_id": "account-807be",
+    "storage_bucket": "account-807be.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:386334836209:android:6b90121ef79d0181",
-        "android_client_info": {
-          "package_name": "com.example.database"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "386334836209-m4ee7s95841e8hebblv28kj4rgpbtfg7.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.database",
-            "certificate_hash": "c1c092df41d4e335e9e3f2f60e1b981139a7c6d8"
-          }
-        },
-        {
-          "client_id": "386334836209-enarjaj2cn7dvtu7e9nk94i6a9564vr8.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyArkYg5IMyMDHfrgBOxR2qLJFSSDKs59z8"
-        },
-        {
-          "current_key": "AIzaSyAvZgP2hsKc8ZVU_G0jFUCtwM5ViSNvi_E"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "386334836209-enarjaj2cn7dvtu7e9nk94i6a9564vr8.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:386334836209:android:d0879b47ad6cb74c",
+        "mobilesdk_app_id": "1:762168279489:android:d0879b47ad6cb74c",
         "android_client_info": {
           "package_name": "com.ubu.it.myaccount"
         }
       },
       "oauth_client": [
         {
-          "client_id": "386334836209-enarjaj2cn7dvtu7e9nk94i6a9564vr8.apps.googleusercontent.com",
+          "client_id": "762168279489-pliq7emo3ls0kf9cdajaqrpsdr91sads.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyArkYg5IMyMDHfrgBOxR2qLJFSSDKs59z8"
-        },
-        {
-          "current_key": "AIzaSyAvZgP2hsKc8ZVU_G0jFUCtwM5ViSNvi_E"
+          "current_key": "AIzaSyC35CUqHPsbGBOAdDKwE4Vhym0LdUaAqqY"
         }
       ],
       "services": {

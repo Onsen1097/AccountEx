@@ -41,6 +41,10 @@ public class AccountAdapter extends ArrayAdapter<Account> {
 
         TextView accountTextName = (TextView) convertView.findViewById(R.id.account_name);
         accountTextName.setText(account.getName());
+        TextView accountTextTel = (TextView) convertView.findViewById(R.id.account_tel);
+        accountTextTel.setText(account.getTel());
+        TextView accountTextEmail = (TextView) convertView.findViewById(R.id.account_email);
+        accountTextEmail.setText(account.getEmail());
 
         return convertView;
     }
