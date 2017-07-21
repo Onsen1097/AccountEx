@@ -19,41 +19,28 @@ public class AccountAdapter extends ArrayAdapter<Account> {
     Context mContext;
     int resource;
 
-    private static class ViewHolder {
-        TextView accountTextName;
-        TextView accountTextTel;
-        TextView accountTextEmail;
-        ImageView accountIcon;
-    }
-
     public AccountAdapter(Context context, int resource, ArrayList<Account> accounts) {
         super(context, resource, accounts);
 
         this.accounts = accounts;
         this.mContext = context;
         this.resource = resource;
+
+
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Account account = getItem(position);
-        ViewHolder viewHolder;
 
-        if (convertView == null) {
-            viewHolder = new ViewHolder();
-            LayoutInflater inflater = LayoutInflater.from(getContext());
-            convertView = inflater.inflate(resource, parent, false);
-            viewHolder.accountTextName = (TextView) convertView.findViewById(R.id.account_name);
-            viewHolder.accountTextTel = (TextView) convertView.findViewById(R.id.account_tel);
-            viewHolder.accountTextEmail = (TextView) convertView.findViewById(R.id.account_email);
-            convertView.setTag(viewHolder);
-        } else {
-            viewHolder = (ViewHolder) convertView.getTag();
+        LayoutInflater mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        if(convertView == null) {
+            convertView = mInflater.inflate(resource, parent, false);
         }
 
-        viewHolder.accountTextName.setText(account.getName());
-        viewHolder.accountTextTel.setText(account.getTel());
-        viewHolder.accountTextEmail.setText(account.getEmail());
+        TextView accountTextName = (TextView) convertView.findViewById(R.id.account_name);
+        accountTextName.setText(account.getName());
 
         return convertView;
     }
